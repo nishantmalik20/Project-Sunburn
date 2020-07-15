@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #00A39E;
+    
+    
+}
+header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.nav-items li,a{
+    font-family: 'Grand Hotel', cursive;
+    font-weight: 500px;
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    padding: 0px 40px;
+}
+.logo{
+    cursor: pointer;
+    width: 50%;
+}
+.background{
+    width: 100%;
+}
+.nav-items ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav-items li a:hover{
+    color: #f9ca24;
+}
+.nav-items li a{
+    transition: all 0.5s ease 0s;
+}
+.buy-top{
+    background-color: #00DEF6;
+    cursor: pointer;
+    padding: 14px 40px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 2em;
+    margin: 40px 45%;
+}
+h1{
+    text-align: center;
+    font-family: 'Grand Hotel', cursive;
+    color: white;
+    font-size: 60px;
+}
+.overview{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 0 10%;
+    font-size: 18px;
+    text-align: justify;
+}
+.schedule{
+    padding: 0 10%;
+    color: white;
+}
+.schedule h2{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid white;
+}
+.text-taylor{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.taylor-schedule{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+.taylor{
+    display: flex;
+}
+.taylor img{
+    width: 300px;
+    padding-left: 20px;
+}
+h3{
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-top: 80px;
+}
+main{
+    border-bottom: 5px solid white;
+}
+footer{
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.footer-img{
+    width: 200px;
+}
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-align: justify;
+    color: white;
+    padding-left: 30px;
+}
