@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* HEADER */
+
+header{
+    background-image: url(/img/taylor-bg.png);
+    background-position: center;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: space-between;
+    height: 85vh;
+    padding: 2%;
+}
+.nav-items a{
+    font-family: 'Grand Hotel', cursive;
+    font-weight: 500px;
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    
+    /* padding: 0px 40px; */
+
+}
+.nav-items li{
+    margin-right: 12em;
+}
+.nav-items li:last-of-type{
+    margin-right: 6em;
+}
+.logo{
+    cursor: pointer;
+    height: 5em;
+}
+.nav-items ul{
+    list-style: none;
+    display: flex;
+    margin-top: 1.5em;
+}
+
+.nav-items li a:hover{
+    color: #f9ca24;
+}
+.nav-items li a{
+    transition: all 0.5s ease 0s;
+}
+/* body{
+    background-color: tomato;
+} */
+.background{
+    width: 100%;
+    display: block;
+    background-attachment: fixed;
+}
+.buy-top{
+    background-color: #00DEF6;
+    cursor: pointer;
+    padding: 14px 40px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 2em;
+    margin: 40px 45%;
+}
+.bio{
+    display: flex;
+    padding: 40px 10%;
+    align-items: center;
+}
+.bio h1{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 180px;
+   
+}
+.bio p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    padding-left: 50px;
+    
+}
+h2{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 60px;
+    text-align: center;
+    
+}
+.photo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 591px 591px;
+    width: 80%;
+    margin: 0 auto;
+    gap: 1em;
+
+}
+.photo-grid .grid-item:nth-of-type(odd){
+    text-align: right;
+    vertical-align: middle;
+}
+.border{
+    border-bottom: 5px solid black;
+    margin: 0 10%;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.footer-img{
+    width: 200px;
+}
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-align: justify;
+    color:black;
+    padding-left: 30px;
+}
