@@ -7,34 +7,41 @@
 }
 body{
     background-color: #00A39E;
-    
-    
 }
+
+/* HEADER */
+
 header{
-    position: absolute;
+    background-image: url(/img/bg.png);
+    background-position: center;
+    background-size: cover;
+    
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+    height: 85vh;
+    padding: 2%;
 }
-.nav-items li,a{
+.nav-items a{
     font-family: 'Grand Hotel', cursive;
     font-weight: 500px;
     font-size: 28px;
     color: white;
     text-decoration: none;
-    padding: 0px 40px;
+}
+.nav-items li{
+    margin-right: 12em;
+}
+.nav-items li:last-of-type{
+    margin-right: 6em;
 }
 .logo{
     cursor: pointer;
-    width: 50%;
-}
-.background{
-    width: 100%;
+    height: 5em;
 }
 .nav-items ul{
     list-style: none;
     display: flex;
+    margin-top: 1.5em;
 }
 
 .nav-items li a:hover{
@@ -43,6 +50,9 @@ header{
 .nav-items li a{
     transition: all 0.5s ease 0s;
 }
+
+/* MAIN */
+
 .buy-top{
     background-color: #00DEF6;
     cursor: pointer;
@@ -104,6 +114,8 @@ h3{
 main{
     border-bottom: 5px solid white;
 }
+
+/* FOOTER */
 footer{
     display: flex;
     align-items: center;

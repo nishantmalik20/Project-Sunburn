@@ -23,9 +23,6 @@ header{
     font-size: 28px;
     color: white;
     text-decoration: none;
-    
-    /* padding: 0px 40px; */
-
 }
 .nav-items li{
     margin-right: 12em;
@@ -49,9 +46,11 @@ header{
 .nav-items li a{
     transition: all 0.5s ease 0s;
 }
-/* body{
-    background-color: tomato;
-} */
+
+
+/* MAIN */
+
+
 .background{
     width: 100%;
     display: block;
@@ -109,6 +108,7 @@ h2{
 }
 
 /* FOOTER */
+
 footer{
     display: flex;
     align-items: center;
