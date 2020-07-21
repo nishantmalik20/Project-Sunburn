@@ -15,7 +15,7 @@ header{
     display: flex;
     justify-content: space-between;
     height: 85vh;
-    padding: 2%;
+    padding: 5%;
 }
 .nav-items a{
     font-family: 'Grand Hotel', cursive;
