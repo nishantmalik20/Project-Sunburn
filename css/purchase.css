@@ -10,7 +10,7 @@ body{
 }
 
 /* HEADER */
-@media only screen and (max-width: 375px) {
+
 header{
     background-image: url(../img/buy-bg.png);
     background-position: center;
@@ -170,7 +170,7 @@ footer p{
     color: white;
     padding-left: 30px;
 }
-}
+
 @media only screen and (max-width: 375px) {
     
     header{
