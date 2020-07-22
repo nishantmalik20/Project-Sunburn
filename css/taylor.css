@@ -8,14 +8,13 @@
 /* HEADER */
 
 header{
-    background-image: url(img/taylor-bg.png);
+    background-image: url(../img/taylor-bg.png);
     background-position: center;
     background-size: cover;
-    
     display: flex;
     justify-content: space-between;
     height: 85vh;
-    padding: 5%;
+    padding: 2%;
 }
 .nav-items a{
     font-family: 'Grand Hotel', cursive;
