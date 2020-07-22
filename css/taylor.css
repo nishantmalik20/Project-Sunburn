@@ -123,3 +123,60 @@ footer p{
     color:black;
     padding-left: 30px;
 }
+/* MEDIA QUERY */
+
+header{
+    height: 30vh;
+    padding-right: 30%;
+    
+}
+
+.logo{
+    height: 2em;
+    
+    position: absolute;
+    right: 35%;
+
+    
+}
+.nav-items li{
+    margin-right: 1em;
+    position: relative;
+    left: 40%;
+}
+
+.nav-items a{
+    font-size: 12px;
+    
+    
+}
+
+footer{
+    flex-direction: column;
+    
+}
+.bio{
+    flex-direction: column;
+    padding: 40px 0;
+}
+.bio h1{
+    font-size: 8em;
+}
+
+.bio p {
+    width: 90%;
+    padding: 0;
+    line-height: 140%;
+    margin: 0 auto;
+}
+
+ h2{
+    font-size: 3em;
+}
+.photo-grid {
+
+grid-template-columns: 1fr ;
+}
+.grid-item img{
+    height: 300px;
+}
